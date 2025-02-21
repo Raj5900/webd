@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>SIMPLE CALCULATOR</h1>
+        <div class="calc">
+            <input type="text" id="n1" placeholder="ENTER NUMBER 1">
+            <input type="text" id="n2" placeholder="ENTER NUMBER 2">
+            <button type="button" onclick="sum()">SUM</button>
+            <button type="button" onclick="diff()">DIFF</button>
+            <button type="button" onclick="mul()">MUL</button>
+            <button type="button" onclick="div()">DIV</button>
+            <h3>Answer: <span id="result">0</span></h3>
+            <button id="clr" type="button" onclick="clearfield()">CLEAR</button>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
